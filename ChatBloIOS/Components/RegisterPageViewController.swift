@@ -87,7 +87,6 @@ class RegisterPageViewController: UIViewController {
         setUpLoginButton()
         
     }
-    
     @objc func registerpagenav(sender: UIButton){
         let email = email_text.text
         let password = passwrod_text.text
