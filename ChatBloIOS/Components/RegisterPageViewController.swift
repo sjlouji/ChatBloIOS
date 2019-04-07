@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import Firebase
 
 class RegisterPageViewController: UIViewController {
-    
+
     let register_button: UIButton = {
         let e = UIButton()
         e.setTitle("Register", for: .normal)
@@ -85,13 +86,44 @@ class RegisterPageViewController: UIViewController {
         setUppasswordFeild()
         setUpRegsiterButton()
         setUpLoginButton()
-        
+     
     }
+    
     @objc func registerpagenav(sender: UIButton){
         let email = email_text.text
         let password = passwrod_text.text
-        let disname = display_name.text
-        
+        let indicator: UIActivityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
+        indicator.frame = CGRect(x: 0.0, y: 0.0, width: 100.0, height: 100.0)
+        indicator.center = view.center
+        view.addSubview(indicator)
+        indicator.bringSubviewToFront(view)
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        indicator.startAnimating()
+        Auth.auth().createUser(withEmail: email!, password: password!) { authResult, error in
+            indicator.stopAnimating()
+            if error == nil{
+                let userID : String = ((Auth.auth().currentUser?.uid)!)
+                let ref=Database.database().reference(fromURL: "https://blochat-f1823.firebaseio.com/")
+                let userref=ref.child("Users").child(userID)
+                let values=["name":self.display_name.text,"image":"default","online":"1111111111","status":"Hey there I am using ChatBlo"] as [String : Any]
+                userref.updateChildValues(values, withCompletionBlock: { (err, ref) in
+                    if(err != nil){
+                        print(err)
+                        return
+                    }
+                    else{
+                        let loginController = ViewController()
+                        self.present(loginController, animated: false, completion: nil)
+                    }
+                })
+               
+            }
+            else {
+                let alert = UIAlertController(title: "Registration Failed", message: error?.localizedDescription, preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
+        }
     }
     
     @objc func loginnav(sender: UIButton){

@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a144b0f27bebcc5873cd3b4caac7dc74"
+build_time: [1552856121, 234894000]
+inputs:
+  "/Users/joanlouji/Documents/Projects/ChatBloIOS/ChatBloIOS/Components/LoginViewController.swift": !dirty [1552844184, 0]
+  "/Users/joanlouji/Documents/Projects/ChatBloIOS/ChatBloIOS/Constraints/Colors.swift": !dirty [1552842976, 0]
+  "/Users/joanlouji/Documents/Projects/ChatBloIOS/ChatBloIOS/Components/LoginPageViewController.swift": !dirty [1552847724, 0]
+  "/Users/joanlouji/Documents/Projects/ChatBloIOS/ChatBloIOS/ViewController.swift": !dirty [1552840344, 0]
+  "/Users/joanlouji/Documents/Projects/ChatBloIOS/ChatBloIOS/AppDelegate.swift": !dirty [1552855918, 0]
+  "/Users/joanlouji/Documents/Projects/ChatBloIOS/ChatBloIOS/Components/RegisterPageViewController.swift": !dirty [1552853339, 0]

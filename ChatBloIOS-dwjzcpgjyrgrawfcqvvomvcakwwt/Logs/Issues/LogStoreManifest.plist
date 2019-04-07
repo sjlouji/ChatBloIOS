@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>543CD534-3A75-46E1-8066-B3647C9D46D1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>543CD534-3A75-46E1-8066-B3647C9D46D1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>signature</key>
+			<string>ChatBloIOS-dwjzcpgjyrgrawfcqvvomvcakwwt</string>
+			<key>timeStartedRecording</key>
+			<real>574548921.226264</real>
+			<key>timeStoppedRecording</key>
+			<real>574548921.59600997</real>
+			<key>title</key>
+			<string>Build target ChatBloIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>543CD534-3A75-46E1-8066-B3647C9D46D1</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

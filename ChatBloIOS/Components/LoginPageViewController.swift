@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginPageViewController: UIViewController {
     let login_button: UIButton = {
@@ -57,7 +58,7 @@ class LoginPageViewController: UIViewController {
         e.layer.shadowRadius = 0.0
         return e
     }()
-    
+
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,6 +68,7 @@ class LoginPageViewController: UIViewController {
         setUppasswordFeild()
         setUpLoginButton()
         setUpRegsiterButton()
+
     }
     
     @objc func registerpagenav(sender: UIButton){
@@ -75,12 +77,36 @@ class LoginPageViewController: UIViewController {
     }
     
     @objc func loginnav(sender: UIButton){
-        let email = email_text.text
-        let password = passwrod_text.text
-      
-        
+        let fireemail = email_text.text
+        let firepassword = passwrod_text.text
+        let indicator: UIActivityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
+        indicator.frame = CGRect(x: 0.0, y: 0.0, width: 100.0, height: 100.0)
+        indicator.center = view.center
+        view.addSubview(indicator)
+        indicator.bringSubviewToFront(view)
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        indicator.startAnimating()
+        Auth.auth().signIn(withEmail: fireemail!, password: firepassword!) { (user, error) in
+        indicator.stopAnimating()
+            if error == nil {
+                
+                print("You have successfully logged in")
+                let dash = ViewController()
+                self.present(dash, animated: false, completion: nil)
+                
+            } else {
+                print("You have not successfully logged in")
+
+                //Tells the user that there is an error and then gets firebase to tell them the error
+                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(defaultAction)
+                
+                self.present(alertController, animated: true, completion: nil)
+            }
     }
-    
+    }
     fileprivate func setUpTextChatBlo(){
         let lbl = UILabel(frame: CGRect(x: 90, y: 100, width: 230, height: 21))
         lbl.textAlignment = NSTextAlignment.center

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>3DC694BB-AE98-4529-B6C6-6A983DFBAFBB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3DC694BB-AE98-4529-B6C6-6A983DFBAFBB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChatBloIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChatBloIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ChatBloIOS</string>
+			<key>timeStartedRecording</key>
+			<real>574548719.23593998</real>
+			<key>timeStoppedRecording</key>
+			<real>574548719.77314103</real>
+			<key>title</key>
+			<string>Build ChatBloIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>3DC694BB-AE98-4529-B6C6-6A983DFBAFBB</string>
+		</dict>
+		<key>459EC494-1C01-4DED-808D-75497366995A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>459EC494-1C01-4DED-808D-75497366995A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChatBloIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChatBloIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ChatBloIOS</string>
+			<key>timeStartedRecording</key>
+			<real>574548335.97898304</real>
+			<key>timeStoppedRecording</key>
+			<real>574548336.68479502</real>
+			<key>title</key>
+			<string>Build ChatBloIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>459EC494-1C01-4DED-808D-75497366995A</string>
+		</dict>
+		<key>5536EB2D-BB76-4742-AEC3-38AA4D33028D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5536EB2D-BB76-4742-AEC3-38AA4D33028D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChatBloIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChatBloIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ChatBloIOS</string>
+			<key>timeStartedRecording</key>
+			<real>574548846.55195999</real>
+			<key>timeStoppedRecording</key>
+			<real>574548846.97160399</real>
+			<key>title</key>
+			<string>Build ChatBloIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>5536EB2D-BB76-4742-AEC3-38AA4D33028D</string>
+		</dict>
+		<key>C830402D-6BBF-4A95-A5F4-080F358C14E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C830402D-6BBF-4A95-A5F4-080F358C14E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChatBloIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChatBloIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ChatBloIOS</string>
+			<key>timeStartedRecording</key>
+			<real>574548921.11632395</real>
+			<key>timeStoppedRecording</key>
+			<real>574548921.61245298</real>
+			<key>title</key>
+			<string>Build ChatBloIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>C830402D-6BBF-4A95-A5F4-080F358C14E4</string>
+		</dict>
+		<key>EF178E77-F9C3-466C-9E76-D99C8EC23BC1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EF178E77-F9C3-466C-9E76-D99C8EC23BC1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChatBloIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChatBloIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ChatBloIOS</string>
+			<key>timeStartedRecording</key>
+			<real>574548331.71837795</real>
+			<key>timeStoppedRecording</key>
+			<real>574548335.68280101</real>
+			<key>title</key>
+			<string>Build ChatBloIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>EF178E77-F9C3-466C-9E76-D99C8EC23BC1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
