@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>428787689175-m1d3kpkg8n8s3g22ct9q1s9odteq6ujr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.428787689175-m1d3kpkg8n8s3g22ct9q1s9odteq6ujr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmoQNcPdvYvTP_VcLH9NCOBJz8M1jBN9s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>428787689175</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.social.joanlouji.ChatBloIOS</string>
+	<key>PROJECT_ID</key>
+	<string>blochat-f1823</string>
+	<key>STORAGE_BUCKET</key>
+	<string>blochat-f1823.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:428787689175:ios:cc6ce6fc19929f94</string>
+	<key>DATABASE_URL</key>
+	<string>https://blochat-f1823.firebaseio.com</string>
+</dict>
+</plist>

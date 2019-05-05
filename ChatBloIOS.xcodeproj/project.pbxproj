@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7A1FECC57F388B72024210F4 /* Pods_ChatBloIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60C0A9826A5B9B3AA0E8E12 /* Pods_ChatBloIOS.framework */; };
-		A70491C622571F5E0064FCC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A70491C522571F5E0064FCC6 /* GoogleService-Info.plist */; };
 		A70491C82258D4AA0064FCC6 /* AllUserListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70491C72258D4AA0064FCC6 /* AllUserListTableViewController.swift */; };
 		A70491CD225A48EF0064FCC6 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70491CC225A48EF0064FCC6 /* UserList.swift */; };
+		A70491CF2266EDA20064FCC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A70491CE2266EDA20064FCC6 /* GoogleService-Info.plist */; };
 		A75F2083223EA93200BD13A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F2082223EA93200BD13A5 /* AppDelegate.swift */; };
 		A75F2085223EA93200BD13A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F2084223EA93200BD13A5 /* ViewController.swift */; };
 		A75F208A223EA93200BD13A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75F2089223EA93200BD13A5 /* Assets.xcassets */; };
@@ -23,9 +23,9 @@
 
 /* Begin PBXFileReference section */
 		9B68FE846D3ECE9597A9805F /* Pods-ChatBloIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBloIOS.release.xcconfig"; path = "Target Support Files/Pods-ChatBloIOS/Pods-ChatBloIOS.release.xcconfig"; sourceTree = "<group>"; };
-		A70491C522571F5E0064FCC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A70491C72258D4AA0064FCC6 /* AllUserListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUserListTableViewController.swift; sourceTree = "<group>"; };
 		A70491CC225A48EF0064FCC6 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		A70491CE2266EDA20064FCC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A75F207F223EA93200BD13A5 /* ChatBloIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBloIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75F2082223EA93200BD13A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A75F2084223EA93200BD13A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 				A75F2094223EAB2400BD13A5 /* Components */,
 				A75F2082223EA93200BD13A5 /* AppDelegate.swift */,
 				A75F2089223EA93200BD13A5 /* Assets.xcassets */,
-				A70491C522571F5E0064FCC6 /* GoogleService-Info.plist */,
+				A70491CE2266EDA20064FCC6 /* GoogleService-Info.plist */,
 				A75F208B223EA93200BD13A5 /* LaunchScreen.storyboard */,
 				A75F208E223EA93200BD13A5 /* Info.plist */,
 			);
@@ -194,7 +194,7 @@
 			files = (
 				A75F208D223EA93200BD13A5 /* LaunchScreen.storyboard in Resources */,
 				A75F208A223EA93200BD13A5 /* Assets.xcassets in Resources */,
-				A70491C622571F5E0064FCC6 /* GoogleService-Info.plist in Resources */,
+				A70491CF2266EDA20064FCC6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
