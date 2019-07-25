@@ -15,8 +15,12 @@ ChatBloIos is a Chat app for iPhone that lets you chat with all the logged in us
 3. Login and Register
 4. Email Authentication
 5. Firebase backend - Firebase RealTime Database
-6. Deployment target: iOS 11.2+
-7. Supported devices: iPhone 7, 7 Plus, 8, 8 Plus, iPhone X
+6. LastSeen
+7. Emoji
+8. Pagination
+9. One to One Chat - RealTime Sync
+10. Deployment target: iOS 11.2+
+11. Supported devices: iPhone 7, 7 Plus, 8, 8 Plus, iPhone X
 
 # Requirements
 1. Xcode 9.0+
@@ -24,13 +28,13 @@ ChatBloIos is a Chat app for iPhone that lets you chat with all the logged in us
 
 # ScreenShots
 1. Login Page
-<img width="1679" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/61891878-456f8580-af28-11e9-830b-62a96aa83.png">
+<img width="500" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/61891878-456f8580-af28-11e9-830b-62a96aa83.png">
 
 2. Register Page
-<img width="1679" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/1891878-456f8580-af28-11e9-830b-62a96aa81db3.png">
+<img width="500" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/1891878-456f8580-af28-11e9-830b-62a96aa81db3.png">
 
 3. ChatActivity Page
-<img width="1679" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/618178-456f8580-af28-11e9-830b-62a96aa81db3.png">
+<img width="500" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/618178-456f8580-af28-11e9-830b-62a96aa81db3.png">
 
 4. ChatPage
-<img width="1679" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/6891878-456f8580-af28-11e9-830b-62a96aa81db3.png">
+<img width="500" alt="Screenshot 2019-07-25 at 9 47 34 PM" src="https://user-images.githubusercontent.com/38372696/6891878-456f8580-af28-11e9-830b-62a96aa81db3.png">
